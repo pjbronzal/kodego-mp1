@@ -2,10 +2,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
 header {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   background-color: #ffffff;
 }
 header img {
@@ -33,10 +35,12 @@ header.open {
 }
 
 .hero {
-  position: relative;
-  height: 500px;
+  height: 600px;
+  margin-top: 76px;
+  background: url("../img/f604dff2-5314-4a94-bd0c-6a2531365f15.jpg") no-repeat center center/cover;
+  background-position: 50% 30%;
 }
-.hero .carousel-overlay {
+.hero .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -44,13 +48,14 @@ header.open {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
 }
-.hero .carousel-caption {
+.hero .hero-content {
   position: absolute;
-  top: 55%;
+  top: 45%;
   left: 50%;
+  width: 100%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 100%;
+  color: white;
 }
 .hero h1 {
   font-family: "Impact";
@@ -59,11 +64,49 @@ header.open {
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Bottom-right shadow */
 }
 .hero p {
-  text-shadow: 4px 3px 0 #000;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
   font-size: 16px;
 }
 
-/* Extra Small Devices (Phones) */
+.breadcrumb-section {
+  font-size: 12px;
+  margin: 0 80px;
+}
+
+.announcements a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.announcements .card {
+  border: none;
+}
+.announcements .card .month, .announcements .card p {
+  font-size: 12px;
+}
+.announcements .col-md-4:hover {
+  padding: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.latest-news .card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.latest-news .card a {
+  font-size: 14px;
+  background-color: #fd5397;
+  color: #fff;
+}
+.latest-news .card a:hover {
+  border: 1px solid #fd5397;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fd5397;
+}
+.latest-news .card .month, .latest-news .card p {
+  font-size: 12px;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   header img {
     width: 40px;
@@ -79,14 +122,11 @@ header.open {
   .hero {
     position: static;
     height: 170px;
-    margin-top: 17%;
-  }
-  .hero .carousel-caption {
-    top: 50%;
+    margin-top: 66px;
   }
   .hero h1 {
     font-family: "Impact";
-    font-size: 22px;
+    font-size: 24px;
     color: #ea1948;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Bottom-right shadow */
   }
@@ -95,21 +135,56 @@ header.open {
     font-size: 7px;
     padding: 0 35px;
   }
+  .breadcrumb-section {
+    font-size: 12px;
+    margin: 0 20px;
+  }
+  .announcements,
+.latest-news {
+    margin: 0 12px;
+  }
+  .announcements h3,
+.latest-news h3 {
+    font-size: 16px;
+  }
+  .announcements .col-2 .month,
+.latest-news .col-2 .month {
+    font-size: 10px;
+  }
+  .announcements .title,
+.latest-news .title {
+    font-size: 14px;
+  }
+  .announcements .col-9 p,
+.announcements .col-9 a,
+.latest-news .col-9 p,
+.latest-news .col-9 a {
+    font-size: 11px;
+  }
 }
 /* Small Devices (Tablets) */
 @media (min-width: 481px) and (max-width: 768px) {
-  .hero .carousel-caption {
-    top: 60%;
+  .hero {
+    height: 250px;
   }
   .hero h1 {
     font-family: "Impact";
-    font-size: 30px;
+    font-size: 35px;
     color: #ea1948;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Bottom-right shadow */
   }
   .hero p {
     text-shadow: 4px 3px 0 #000;
-    font-size: 7px;
+    font-size: 9px;
+    padding: 0 50px;
+  }
+  .breadcrumb-section {
+    font-size: 12px;
+    margin: 0 25px;
+  }
+  .announcements,
+.latest-news {
+    margin: 0 25px;
   }
 }
 /* Medium Devices (Laptops) */
@@ -117,8 +192,8 @@ header.open {
   header .nav-link {
     font-size: 12px;
   }
-  .hero .carousel-caption {
-    top: 60%;
+  .hero {
+    height: 400px;
   }
   .hero h1 {
     font-family: "Impact";
@@ -129,5 +204,9 @@ header.open {
   .hero p {
     text-shadow: 4px 3px 0 #000;
     font-size: 12px;
+  }
+  .breadcrumb-section {
+    font-size: 10px;
+    margin: 0 30px;
   }
 }

@@ -1,9 +1,26 @@
 /* Extra Small Devices (Phones) */
 @media (min-width: 320px) and (max-width: 480px) {
+    header {
+        img {
+            width: 40px;
+        }
+
+        .navbar-toggler {
+            border: none;
+            cursor: pointer;
+        }
+        
+        .navbar-toggler-icon {
+            width: 25px;
+            height: 25px;
+        }
+        
+    }
+
     .hero {
         position: static;
         height: 170px;
-        margin-top: 20%;
+        margin-top: 17%;
 
         .carousel-caption {
             top: 50%;
@@ -11,7 +28,7 @@
 
         h1 {
             font-family: 'Impact';
-            font-size: 20px;
+            font-size: 22px;
             color: $red-crayola;
             text-shadow:
                 -1px -1px 0 #fff, /* Top-left shadow */
@@ -23,7 +40,7 @@
         p {
             text-shadow: 4px 3px 0 #000;
             font-size: 7px;
-            padding: 0 30px;
+            padding: 0 35px;
         }
     }
 }
@@ -56,8 +73,13 @@
   
 /* Medium Devices (Laptops) */
 @media (min-width: 769px) and (max-width: 1024px) {
-    .hero {
+    header {
+        .nav-link {
+            font-size: 12px;
+        }
+    }
 
+    .hero {    
         .carousel-caption {
             top: 60%;
         }
