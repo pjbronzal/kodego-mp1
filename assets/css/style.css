@@ -27,6 +27,11 @@ header .nav-link {
   color: #000;
   font-weight: 400;
 }
+header .nav-link:hover {
+  color: #ea1948;
+  font-weight: bold;
+  transition: 0.4s;
+}
 header .dropdown-item {
   font-size: 13px;
 }
@@ -39,7 +44,7 @@ header.open {
 }
 
 .hero {
-  height: 600px;
+  height: 580px;
   margin-top: 76px;
   background: url("../img/f604dff2-5314-4a94-bd0c-6a2531365f15.jpg") no-repeat center center/cover;
   background-position: 50% 30%;
@@ -109,6 +114,23 @@ header.open {
 }
 .latest-news .card .month, .latest-news .card p {
   font-size: 12px;
+}
+.latest-news button {
+  text-decoration: none;
+  margin-top: 30px;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  width: 250px;
+  font-size: 14px;
+  background-color: #ea1948;
+  color: #fff;
+}
+.latest-news button:hover {
+  border: 1px solid #ea1948;
+  background-color: rgba(0, 0, 0, 0);
+  color: #ea1948;
+  transition: 0.4s;
 }
 
 footer {

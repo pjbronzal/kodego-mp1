@@ -40,6 +40,12 @@ header {
     .nav-link {
         color: #000;
         font-weight: 400;
+
+        &:hover {
+            color: $red-crayola;
+            font-weight: bold;
+            transition: .4s;
+        }
     }
 
     .dropdown-item {
@@ -55,7 +61,7 @@ header.open {
 }
 
 .hero {
-    height: 600px;
+    height: 580px;
     margin-top: 76px;
     background: url('../img/f604dff2-5314-4a94-bd0c-6a2531365f15.jpg') no-repeat center center/cover;
     background-position: 50% 30%;
@@ -141,6 +147,25 @@ header.open {
     
         .month, p {
             font-size: 12px;
+        }
+    }
+
+    button {
+        text-decoration: none;
+        margin-top: 30px;
+        padding: 1rem;
+        border: none;
+        border-radius: 0.3rem;
+        width: 250px;
+        font-size: 14px;
+        background-color: $red-crayola;
+        color: #fff;
+
+        &:hover {
+            border: 1px solid $red-crayola;
+            background-color: rgba(0, 0, 0, 0);
+            color: $red-crayola;
+            transition: .4s;
         }
     }
 }
