@@ -280,4 +280,32 @@ header.open {
         font-size: 10px;
         margin: 0 30px;
     }
+
+    .announcements,
+    .latest-news {
+        margin: 0 12px;
+
+        h3 {
+            font-size: 16px;
+        }
+
+        .col-2 {
+            .month {
+                font-size: 7px;
+            }
+        }
+
+        h6 {
+            font-size: 12px;
+        }
+
+        .title {
+            font-size: 11px
+        }
+
+        .col-9 p,
+        .col-9 a  {
+            font-size: 10px;
+        }
+    }
 }

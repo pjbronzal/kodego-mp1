@@ -209,4 +209,30 @@ header.open {
     font-size: 10px;
     margin: 0 30px;
   }
+  .announcements,
+.latest-news {
+    margin: 0 12px;
+  }
+  .announcements h3,
+.latest-news h3 {
+    font-size: 16px;
+  }
+  .announcements .col-2 .month,
+.latest-news .col-2 .month {
+    font-size: 7px;
+  }
+  .announcements h6,
+.latest-news h6 {
+    font-size: 12px;
+  }
+  .announcements .title,
+.latest-news .title {
+    font-size: 11px;
+  }
+  .announcements .col-9 p,
+.announcements .col-9 a,
+.latest-news .col-9 p,
+.latest-news .col-9 a {
+    font-size: 10px;
+  }
 }
