@@ -1,0 +1,81 @@
+/* Extra Small Devices (Phones) */
+@media (min-width: 320px) and (max-width: 480px) {
+    .hero {
+        position: static;
+        height: 170px;
+        margin-top: 20%;
+
+        .carousel-caption {
+            top: 50%;
+        }
+
+        h1 {
+            font-family: 'Impact';
+            font-size: 20px;
+            color: $red-crayola;
+            text-shadow:
+                -1px -1px 0 #fff, /* Top-left shadow */
+                1px -1px 0 #fff,  /* Top-right shadow */
+                -1px 1px 0 #fff,  /* Bottom-left shadow */
+                1px 1px 0 #fff;  /* Bottom-right shadow */
+        }
+    
+        p {
+            text-shadow: 4px 3px 0 #000;
+            font-size: 7px;
+            padding: 0 30px;
+        }
+    }
+}
+  
+/* Small Devices (Tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .hero {
+
+        .carousel-caption {
+            top: 60%;
+        }
+
+        h1 {
+            font-family: 'Impact';
+            font-size: 30px;
+            color: $red-crayola;
+            text-shadow:
+                -1px -1px 0 #fff, /* Top-left shadow */
+                1px -1px 0 #fff,  /* Top-right shadow */
+                -1px 1px 0 #fff,  /* Bottom-left shadow */
+                1px 1px 0 #fff;  /* Bottom-right shadow */
+        }
+    
+        p {
+            text-shadow: 4px 3px 0 #000;
+            font-size: 7px;
+        }
+    }
+}
+  
+/* Medium Devices (Laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero {
+
+        .carousel-caption {
+            top: 60%;
+        }
+
+        h1 {
+            font-family: 'Impact';
+            font-size: 50px;
+            color: $red-crayola;
+            text-shadow:    
+                -2px -2px 0 #fff, /* Top-left shadow */
+                2px -2px 0 #fff,  /* Top-right shadow */
+                -2px 2px 0 #fff,  /* Bottom-left shadow */
+                2px 2px 0 #fff;  /* Bottom-right shadow */
+        }
+    
+        p {
+            text-shadow: 4px 3px 0 #000;
+            font-size: 12px;
+        }
+    }
+}
