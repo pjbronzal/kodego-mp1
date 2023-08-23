@@ -17,6 +17,10 @@ $apple-green: #8DB600;
     font-family: 'Poppins', sans-serif;
 }
 
+i {
+    margin-right: 8px;
+}
+
 header {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     background-color: #ffffff;
@@ -141,6 +145,28 @@ header.open {
     }
 }
 
+footer {
+    background-color: #dedede;
+
+    .sk-logo {
+        width: 150px;
+    }
+
+    .caloocan-city {
+        width: 120px;
+        margin: auto;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    a, p {
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+    }
+}
 
 // /* Extra Small Devices (Phones) */
 @media (min-width: 320px) and (max-width: 480px) {
@@ -212,6 +238,28 @@ header.open {
             font-size: 11px;
         }
     }
+
+    footer {
+        .col-md-3 {
+            text-align: center;
+        }
+
+        .sk-logo {
+            width: 80px;
+        }
+
+        .caloocan-city {
+            width: 60px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        a {
+            font-size: 13px;
+        }
+    }
 }
   
 /* Small Devices (Tablets) */
@@ -245,6 +293,29 @@ header.open {
     .announcements,
     .latest-news {
         margin: 0 25px;
+    }
+
+    footer {
+        .col-md-3 {
+            text-align: center;
+        }
+
+        .sk-logo {
+            width: 80px;
+        }
+
+        .caloocan-city {
+            width: 60px;
+        }
+
+        p {
+            font-size: 12px;
+            padding: 0 50px;
+        }
+
+        a {
+            font-size: 13px;
+        }
     }
 }
   
@@ -306,6 +377,24 @@ header.open {
         .col-9 p,
         .col-9 a  {
             font-size: 10px;
+        }
+    }
+
+    footer {
+        .sk-logo {
+            width: 100px;
+        }
+
+        .caloocan-city {
+            width: 80px;
+        }
+
+        p {
+            font-size: 11px;
+        }
+
+        a {
+            font-size: 12px;
         }
     }
 }
