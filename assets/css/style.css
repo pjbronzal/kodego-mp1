@@ -186,8 +186,7 @@ footer a, footer p {
   }
   .hero h1 {
     font-family: "Impact";
-    font-size: 24px;
-    color: #ea1948;
+    font-size: 22px;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Bottom-right shadow */
   }
   .hero p {
@@ -245,7 +244,6 @@ footer a, footer p {
   .hero h1 {
     font-family: "Impact";
     font-size: 35px;
-    color: #ea1948;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Bottom-right shadow */
   }
   .hero p {
@@ -303,7 +301,6 @@ footer a, footer p {
   .hero h1 {
     font-family: "Impact";
     font-size: 50px;
-    color: #ea1948;
     text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff; /* Bottom-right shadow */
   }
   .hero p {
