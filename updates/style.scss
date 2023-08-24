@@ -206,8 +206,20 @@ footer {
     }
 
     .breadcrumb-section {
-        font-size: 12px;
+        font-size: 10px;
         margin: 0 20px;
+    }
+
+    .updates {
+        margin: 0 18px;
+
+        small, p {
+            font-size: 12px;
+        }
+
+        h4 {
+            font-size: 16px;
+        }
     }
 
     footer {
@@ -279,6 +291,18 @@ footer {
         margin: 0 25px;
     }
 
+    .updates {
+        margin: 0 18px;
+
+        small, p {
+            font-size: 12px;
+        }
+
+        h4 {
+            font-size: 16px;
+        }
+    }
+
     footer {
         .col-md-3 {
             text-align: center;
@@ -333,6 +357,18 @@ footer {
     .breadcrumb-section {
         font-size: 10px;
         margin: 0 30px;
+    }
+
+    .updates {
+        margin: 0 18px;
+
+        small, p {
+            font-size: 12px;
+        }
+
+        h4 {
+            font-size: 16px;
+        }
     }
 
     footer {

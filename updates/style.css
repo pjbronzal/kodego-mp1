@@ -155,8 +155,17 @@ footer a, footer p {
     padding: 0 35px;
   }
   .breadcrumb-section {
-    font-size: 12px;
+    font-size: 10px;
     margin: 0 20px;
+  }
+  .updates {
+    margin: 0 18px;
+  }
+  .updates small, .updates p {
+    font-size: 12px;
+  }
+  .updates h4 {
+    font-size: 16px;
   }
   footer .col-md-3 {
     text-align: center;
@@ -207,6 +216,15 @@ footer a, footer p {
     font-size: 12px;
     margin: 0 25px;
   }
+  .updates {
+    margin: 0 18px;
+  }
+  .updates small, .updates p {
+    font-size: 12px;
+  }
+  .updates h4 {
+    font-size: 16px;
+  }
   footer .col-md-3 {
     text-align: center;
   }
@@ -244,6 +262,15 @@ footer a, footer p {
   .breadcrumb-section {
     font-size: 10px;
     margin: 0 30px;
+  }
+  .updates {
+    margin: 0 18px;
+  }
+  .updates small, .updates p {
+    font-size: 12px;
+  }
+  .updates h4 {
+    font-size: 16px;
   }
   footer .sk-logo {
     width: 100px;
