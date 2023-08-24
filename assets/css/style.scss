@@ -208,6 +208,24 @@ footer {
         .navbar-toggler-icon {
             width: 25px;
             height: 25px;
+        } 
+    }
+
+    header.open {
+        background-color: $rose-pompadour;
+        font-size: 13px;
+        padding: 0;
+    
+        img, span {
+            margin: 0.5rem 1rem;
+        }
+    
+        .container {
+            padding: 0;
+    
+            .navbar-nav {
+                background-color: #fff;
+            }
         }
         
     }
@@ -308,6 +326,25 @@ footer {
             font-size: 9px;
             padding: 0 50px;
         }
+    }
+
+    header.open {
+        background-color: $rose-pompadour;
+        font-size: 14px;
+        padding: 0;
+    
+        img, span {
+            margin: 0.5rem 1rem;
+        }
+    
+        .container {
+            padding: 0;
+    
+            .navbar-nav {
+                background-color: #fff;
+            }
+        }
+        
     }
 
     .breadcrumb-section {

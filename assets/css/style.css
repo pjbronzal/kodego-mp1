@@ -164,6 +164,20 @@ footer a, footer p {
     width: 25px;
     height: 25px;
   }
+  header.open {
+    background-color: #fa789c;
+    font-size: 13px;
+    padding: 0;
+  }
+  header.open img, header.open span {
+    margin: 0.5rem 1rem;
+  }
+  header.open .container {
+    padding: 0;
+  }
+  header.open .container .navbar-nav {
+    background-color: #fff;
+  }
   .hero {
     position: static;
     height: 170px;
@@ -237,6 +251,20 @@ footer a, footer p {
     text-shadow: 4px 3px 0 #000;
     font-size: 9px;
     padding: 0 50px;
+  }
+  header.open {
+    background-color: #fa789c;
+    font-size: 14px;
+    padding: 0;
+  }
+  header.open img, header.open span {
+    margin: 0.5rem 1rem;
+  }
+  header.open .container {
+    padding: 0;
+  }
+  header.open .container .navbar-nav {
+    background-color: #fff;
   }
   .breadcrumb-section {
     font-size: 12px;
