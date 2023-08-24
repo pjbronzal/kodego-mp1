@@ -227,6 +227,26 @@ footer a, footer p {
     font-size: 12px;
     margin: 0 25px;
   }
+  .about {
+    margin: 0 30px;
+  }
+  .about .col-6, .about .col-md-5 {
+    width: 100%;
+    float: none;
+  }
+  .about .intro {
+    text-align: center;
+  }
+  .about .intro p {
+    padding: 0;
+    font-size: 12px;
+  }
+  .about .intro video {
+    width: 500px;
+  }
+  .about .credentials {
+    display: none;
+  }
   footer .col-md-3 {
     text-align: center;
   }
