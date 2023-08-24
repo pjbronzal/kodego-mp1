@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+// AB Color Palette
+$rose-pompadour: #FA789Cff;
+$red-crayola: #EA1948ff;
+$cerise: #F13865ff;
+$french-rose: #fd5397;
+
+// Contrast
+$apple-green: #8DB600;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+i {
+    margin-right: 8px;
+}
+
+header {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: #ffffff;
+
+    img {
+        width: 50px;
+    }
+
+    .nav-item {
+        border-right: 1px solid #ccc;
+
+        &:last-child {
+            border-right: none;
+        }
+    }
+    
+    .nav-link {
+        color: #000;
+        font-weight: 400;
+
+        &:hover {
+            color: $red-crayola;
+            font-weight: bold;
+            transition: .4s;
+        }
+    }
+
+    .dropdown-item {
+        font-size: 13px;
+    }
+}
+
+header.open {
+    text-align: center;
+    background-color: $rose-pompadour;
+    transition: 0.3s;
+    font-size: 12px;
+}
+
+.hero {
+    height: 580px;
+    margin-top: 76px;
+    background: url('../assets/img/fdea16fe-8adb-42ff-bd3a-d0ac42221b91.jpg') no-repeat center center/cover;
+    background-position: 50% 30%;
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .hero-content {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+
+    h1 {
+        font-family: 'Impact';
+        letter-spacing: 1px;
+        font-size: 80px;
+        color: $apple-green;
+        text-shadow:
+            -2px -2px 0 #fff, /* Top-left shadow */
+            2px -2px 0 #fff,  /* Top-right shadow */
+            -2px 2px 0 #fff,  /* Bottom-left shadow */
+            2px 2px 0 #fff;  /* Bottom-right shadow */
+    }
+    
+    p {
+        text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+        font-size: 16px;
+    }
+}
+
+.updates {
+    h4 {
+        color: $red-crayola;
+        text-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+    }
+
+    .card {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.breadcrumb-section {
+    font-size: 12px;
+    margin: 0 80px;
+}
+
+footer {
+    background-color: #dedede;
+
+    .sk-logo {
+        width: 150px;
+    }
+
+    .caloocan-city {
+        width: 120px;
+        margin: auto;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    a, p {
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+    }
+}
+
+// /* Extra Small Devices (Phones) */
+@media (min-width: 320px) and (max-width: 480px) {
+    header {
+        img {
+            width: 40px;
+        }
+
+        .navbar-toggler {
+            border: none;
+            cursor: pointer;
+        }
+        
+        .navbar-toggler-icon {
+            width: 25px;
+            height: 25px;
+        } 
+    }
+
+    header.open {
+        background-color: $rose-pompadour;
+        font-size: 13px;
+        padding: 0;
+    
+        img, span {
+            margin: 0.5rem 1rem;
+        }
+    
+        .container {
+            padding: 0;
+    
+            .navbar-nav {
+                background-color: #fff;
+            }
+        }
+        
+    }
+
+    .hero {
+        position: static;
+        height: 170px;
+        margin-top: 66px;
+        
+        h1 {
+            font-family: 'Impact';
+            font-size: 22px;
+            text-shadow:
+                -1px -1px 0 #fff, /* Top-left shadow */
+                1px -1px 0 #fff,  /* Top-right shadow */
+                -1px 1px 0 #fff,  /* Bottom-left shadow */
+                1px 1px 0 #fff;  /* Bottom-right shadow */
+        }
+    
+        p {
+            text-shadow: 4px 3px 0 #000;
+            font-size: 7px;
+            padding: 0 35px;
+        }
+    }
+
+    .breadcrumb-section {
+        font-size: 10px;
+        margin: 0 20px;
+    }
+
+    .updates {
+        margin: 0 18px;
+
+        small, p {
+            font-size: 12px;
+        }
+
+        h4 {
+            font-size: 16px;
+        }
+    }
+
+    footer {
+        .col-md-3 {
+            text-align: center;
+        }
+
+        .sk-logo {
+            width: 80px;
+        }
+
+        .caloocan-city {
+            width: 60px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        a {
+            font-size: 13px;
+        }
+    }
+}
+  
+/* Small Devices (Tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .hero {
+        height: 250px;
+
+        h1 {
+            font-family: 'Impact';
+            font-size: 35px;
+            text-shadow:
+                -1px -1px 0 #fff, /* Top-left shadow */
+                1px -1px 0 #fff,  /* Top-right shadow */
+                -1px 1px 0 #fff,  /* Bottom-left shadow */
+                1px 1px 0 #fff;  /* Bottom-right shadow */
+        }
+    
+        p {
+            text-shadow: 4px 3px 0 #000;
+            font-size: 9px;
+            padding: 0 50px;
+        }
+    }
+
+    header.open {
+        background-color: $rose-pompadour;
+        font-size: 14px;
+        padding: 0;
+    
+        img, span {
+            margin: 0.5rem 1rem;
+        }
+    
+        .container {
+            padding: 0;
+    
+            .navbar-nav {
+                background-color: #fff;
+            }
+        }
+        
+    }
+
+    .breadcrumb-section {
+        font-size: 12px;
+        margin: 0 25px;
+    }
+
+    .updates {
+        margin: 0 18px;
+
+        small, p {
+            font-size: 12px;
+        }
+
+        h4 {
+            font-size: 16px;
+        }
+    }
+
+    footer {
+        .col-md-3 {
+            text-align: center;
+        }
+
+        .sk-logo {
+            width: 80px;
+        }
+
+        .caloocan-city {
+            width: 60px;
+        }
+
+        p {
+            font-size: 12px;
+            padding: 0 50px;
+        }
+
+        a {
+            font-size: 13px;
+        }
+    }
+}
+  
+/* Medium Devices (Laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    header {
+        .nav-link {
+            font-size: 12px;
+        }
+    }
+
+    .hero {
+        height: 400px;
+
+        h1 {
+            font-family: 'Impact';
+            font-size: 50px;
+            text-shadow:    
+                -2px -2px 0 #fff, /* Top-left shadow */
+                2px -2px 0 #fff,  /* Top-right shadow */
+                -2px 2px 0 #fff,  /* Bottom-left shadow */
+                2px 2px 0 #fff;  /* Bottom-right shadow */
+        }
+    
+        p {
+            text-shadow: 4px 3px 0 #000;
+            font-size: 12px;
+        }
+    }
+
+    .breadcrumb-section {
+        font-size: 10px;
+        margin: 0 30px;
+    }
+
+    .updates {
+        margin: 0 18px;
+
+        small, p {
+            font-size: 12px;
+        }
+
+        h4 {
+            font-size: 16px;
+        }
+    }
+
+    footer {
+        .sk-logo {
+            width: 100px;
+        }
+
+        .caloocan-city {
+            width: 80px;
+        }
+
+        p {
+            font-size: 11px;
+        }
+
+        a {
+            font-size: 12px;
+        }
+    }
+}
