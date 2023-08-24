@@ -46,7 +46,7 @@ header.open {
 .hero {
   height: 580px;
   margin-top: 76px;
-  background: url("../assets/img/f604dff2-5314-4a94-bd0c-6a2531365f15.jpg") no-repeat center center/cover;
+  background: url("../assets/img/361363949_145736511875898_5874650753847142260_n.jpg") no-repeat center center/cover;
   background-position: 50% 30%;
 }
 .hero .overlay {
@@ -68,9 +68,10 @@ header.open {
 }
 .hero h1 {
   font-family: "Impact";
+  letter-spacing: 1px;
   font-size: 80px;
-  color: #ea1948;
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Bottom-right shadow */
+  color: #8DB600;
+  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff; /* Bottom-right shadow */
 }
 .hero p {
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);

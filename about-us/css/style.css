@@ -70,6 +70,7 @@ header.open {
 }
 .hero h1 {
   font-family: "Impact";
+  letter-spacing: 1px;
   font-size: 80px;
   color: #8DB600;
   text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff; /* Bottom-right shadow */
