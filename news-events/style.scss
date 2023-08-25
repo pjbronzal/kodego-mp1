@@ -391,7 +391,7 @@ footer {
     }
 
     .news-events {
-        margin: 0 12px;
+        margin: 0 20px;
 
         h3 {
             font-size: 16px;
@@ -399,21 +399,16 @@ footer {
 
         .col-2 {
             .month {
-                font-size: 7px;
+                font-size: 10px;
             }
         }
 
-        h6 {
-            font-size: 12px;
-        }
-
         .title {
-            font-size: 11px
+            font-size: 14px;
         }
 
-        .col-9 p,
-        .col-9 a {
-            font-size: 10px;
+        .col-12 p {
+            font-size: 12px;
         }
     }
 
