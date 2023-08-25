@@ -179,7 +179,7 @@ footer a, footer p {
     padding: 0 35px;
   }
   .breadcrumb-section {
-    font-size: 12px;
+    font-size: 11px;
     margin: 0 20px;
   }
   .news-events {
@@ -194,8 +194,7 @@ footer a, footer p {
   .news-events .title {
     font-size: 14px;
   }
-  .news-events .col-9 p,
-.news-events .col-9 a {
+  .news-events .col-12 p {
     font-size: 11px;
   }
   footer .col-md-3 {
