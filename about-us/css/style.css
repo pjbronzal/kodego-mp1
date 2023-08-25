@@ -133,6 +133,9 @@ footer a, footer p {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .modal-header h5 {
+    font-size: 15px;
+  }
   header img {
     width: 40px;
   }
@@ -230,6 +233,9 @@ footer a, footer p {
 }
 /* Small Devices (Tablets) */
 @media (min-width: 481px) and (max-width: 768px) {
+  .modal-header h5 {
+    font-size: 14px;
+  }
   .hero {
     height: 250px;
   }
